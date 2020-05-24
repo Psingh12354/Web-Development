@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position absolute, relative, fixed and sticky in CSS</title>
+    <style>
+        /*CSS Position static by default,absolute,relative,fixed and sticky */
+        .container{
+            border: 2px solid black;
+            background-color: burlywood;
+            height: 3400px;
+        }
+
+        .box{
+            display: inline-block;
+            border: 2px solid red;
+            width: 150px;
+            height: 150px;
+            margin: 2px;
+        }
+        #box1{
+            /* position: absolute;it is use to make according to parents */
+            /* if you do relative than it will not remove it means you can use top,left, right it basically means relative to it normal position */
+            /* position: relative; */
+            /* position: static; it ise use bydefault */
+            /* position: fixed; it is used to make it fixed at particular position */
+            /* position: sticky; it is use to make the stick at particular point when you move that point than it will move with the cursor */
+            top: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div>
+    </div>
+</body>
+</html>

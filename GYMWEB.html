@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYMWEB</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<style>
+    body{
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img.jpg');
+    }
+    .left{
+        display: inline-block;
+        border: 2px solid black;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+
+    }
+    .left img{
+        width: 100px;
+        /* for changing the colour */
+    }
+    .left div{
+        text-align: center;
+    }
+    .mid{
+        display: block;
+        width: 33%;
+        margin: 20px auto;;
+ border: 2px solid yellow;
+    }
+    .right{
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        border: 2px solid yellow;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 25px;
+    }
+    .navbar a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        color: grey;
+    }
+</style>
+<body>
+    <header class="header">
+        <div class="left"> 
+            <div class="left">
+                <img src="IMG_20200216_2224151.jpg" alt="img">
+                <div>Welcome</div>
+            </div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Center</a> </li>
+                <li><a href="#">Contact Us</a></li>
+
+            </ul>
+        </div>
+        <div class="right">
+<button class="btn"></button>
+        </div>
+    </header>
+</body>
+</html>

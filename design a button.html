@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo selector & more designing</title>
+    <style>
+        .container{
+            border: 2px solid red;
+            background-color: rosybrown;
+            padding: 34px;
+            margin: auto;
+            width: 666px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            
+        }
+        a:hover{
+            color: black;
+            background-color: white;
+        }
+        a:visited{
+            background-color: blueviolet;
+        }
+        a:active{
+            background-color:blueviolet;
+        }
+        .btn{
+            background-color: lightcoral;
+            padding: 6px;
+            border: none;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            /* to remove border */
+            cursor: pointer;
+            /* to show cursor on clicking */
+            font-size: 13px;
+             border-radius: 4px;
+             font-weight: bold;
+        }
+        .btn:hover{
+            color: green white;
+            background-color: violet;
+            border: black solid bold;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h1>This is my heading</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat corporis similique quam ducimus laudantium, explicabo dolore perferendis magnam, illo assumenda sint rerum sunt autem et aliquam consectetur. Cum, eum magnam!</p>
+        <a href="https://www.google.co.in/" class="btn">Read More</a>
+        <button class="btn">Contact us</button>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before and After Pseudo Selectors</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background: url('https://source.unsplash.com/random') no-repeat center/cover ;
+        }
+        header::before{
+            content: "";
+            background: url('https://source.unsplash.com/random') no-repeat center/cover ;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            top: 0;
+            left: 0;
+            opacity: 0.5;
+            /* for making image light */
+        }
+        .navigation{
+            font-size: 20px;
+            display: flex;
+
+        }
+        li{
+            list-style: none;
+            padding: 34px 23px;
+        }
+section{
+    height:344px;
+
+    border: 2px solid red;
+    margin: 3px 23px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h3{
+    font-size: 4rem;
+}
+p{
+    text-align: center;
+}
+/* section::before{
+    content:"This is the content";
+} */
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li class="item">Home</li>
+            <li class="item">About</li>
+            <li class="item">Services</li>
+            <li class="item">Contact</li>
+        </ul>
+    </nav>
+    <section>
+        <h3>Welcome to my coding world</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id aliquid officiis vero eos molestiae sit exercitationem, sed quidem labore numquam consequuntur porro maxime voluptates. Iure dolorum dignissimos necessitatibus ipsum voluptatum!</p>
+    </section>
+    <hr>
+</body>
+</html>

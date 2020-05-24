@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Function</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <script>
+        var str="This is a string";
+        console.log(str);
+        var position=str.indexOf('is')
+        console.log(position)
+        // for knowing the position of element
+        // position=str.lastIndexOf(is);
+        // console.log(position)
+        var substr=str.slice(1,5);
+        console.log(substr)
+        substr=str.substring(1,7);
+        console.log(substr)
+        // to replace one substring
+        // var replaced=str.replace('string','Priyanshu');
+        // console.log(replaced)
+        console.log(str.toUpperCase());
+        // in the simolar way lowercase
+        var newString=str.concat('New String')
+        console.log(newString)
+        // to remove white spacs
+        var strWhitespces="   This containe     hi";
+        console.log(strWhitespces)
+        console.log(strWhitespces.trim())
+        // var char3=str.charAt(2);
+        // console.log(char3)
+        var char3=str.charCodeAt(2);
+        // not to much important
+        console.log(char3)
+
+    </script>
+</body>
+</html>

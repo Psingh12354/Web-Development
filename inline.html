@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignemnt</title>
+    <style>
+        body{
+            background-color: royalblue;
+        }
+        h1{
+            text-align: center;
+            margin: auto;
+        }
+        .{
+        box-sizing: border-box;
+        background-color: rosybrown;
+        /* for making it side by side */
+        }
+        .container{
+            width: 900px;
+            border: 3px solid purple;
+            margin:40px auto; 
+            /* for making it at center */
+            text-emphasis: bold;
+            font: italic bold;
+            background-color: saddlebrown;
+
+        }
+        .item{
+            border: 3px solid gray;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background: honeydew;
+            font:bold;
+        }
+        #fruit{
+            float: left;
+            /* for movement  */
+            width: 48%;
+        }
+        #computer{
+            float: left;
+            /* clear: both; */
+            /* for movement  */
+            width: 48%;
+        }
+        #stationary{
+            float: left; 
+            /* if you remove this than they combine in one box */
+            /* for movement  */
+            width: 100%;
+        }
+        p,h1{
+            /* text-align: center; */
+            text-align: justify;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Welcome to my Store</h1>
+    <div class="container">
+        <div id="fruit" class="item">
+            <h1>Fruit</h1>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga possimus rem maxime esse aut tempora in accusantium suscipit quaerat quibusdam obcaecati tenetur dolores eaque, deleniti laudantium soluta officiis voluptas ullam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt architecto sunt pariatur dolor nihil illum hic dolorem ducimus nostrum, libero odio et repellendus cum velit, sint tempora repudiandae quibusdam, reprehenderit repellat ipsum. Deleniti, repellendus.</p>
+
+        </div>
+        <div id="computer" class="item">
+            <h1>Computer</h1>
+            <p id="computerspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam eos repudiandae quaerat repellat itaque. Harum magni, assumenda tenetur, ipsam quo cupiditate beatae debitis culpa dignissimos possimus doloribus cum aut saepe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nulla numquam optio ipsum natus, fugiat non excepturi labore voluptas saepe. Laboriosam accusamus omnis eligendi facilis dolore officia? Esse ut, cum quam deserunt distinctio nemo.</p>
+
+        </div>
+        <div id="stationary" class="item">
+            <h1>Stationary</h1>
+            <p id="stationaryspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, aliquid nobis itaque provident quibusdam magni quis reiciendis quam exercitationem ab labore, dicta illum tempore magnam harum? Excepturi nisi veniam fugiat.</p>
+
+        </div>
+
+    </div>
+</body>
+</html>

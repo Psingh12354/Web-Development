@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .container{
+            height: 544px;
+            width: 100%;
+            border: 2px solid black;
+            display: flex;
+            /* flex properties for flex container */
+            flex-direction: column ;;
+            /* bydefault row */
+            /* flex-direction: row-reverse; */
+            /* flex-wrap: wrap; */
+            /* to wrap the box imp u can use this for the shape and size of winow to fix */
+            flex-flow: row-reverse wrap;
+            /* you can write direction and wrap in one line */
+            justify-content: center;
+            /* to make all box center; */
+            justify-content: space-between;
+            /* to make equal space between two box */
+            align-items: center;
+            /* for vertically center */
+            /* align-items: flex-end; */
+
+
+        }
+        .item{
+            width: 150px;
+            height: 200px;
+            background-color: tomato;
+            border: 2px solid green;
+            margin: 10px;
+            padding: 3px;
+
+        }
+        #item-1{
+            order: 2;
+            /* for defing it order greater the order is use to put it giveposition */
+            flex-grow: 3;
+            /* it increase the speed d growth of according to number here 3 means 3 times */
+            flex-shrink: 3;
+            /* to decrease the size */
+        }
+    </style>
+</head>
+<body>
+    <h1>This is Flexbox</h1>
+    <div class="container">
+        <div class="item" id="item-1">First box</div>
+        <div class="item" id="item-2">Second box</div>
+        <div class="item" id="item-3">Third box</div>
+        <div class="item" id="item-4">Fourth box</div>
+        <div class="item" id="item-5">Fifth box</div>
+        <div class="item" id="item-6">Sixth box</div>
+    </div>
+</body>
+</html>
