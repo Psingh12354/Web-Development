@@ -11,5 +11,6 @@ name=description represent the description which you can use to maintaint the tr
 name=keyword which highlight some particular keyword to maintain the traffic.
 use **robots** noindex and nofollow when you don't want to gather traffic through search engine
 
-**strong** to bold
-**em** to emphasized or italiq
+- **strong** to bold
+- **em** to emphasized or italiq
+- **hr** to create a horizontal line
