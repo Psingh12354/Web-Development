@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form</h1>
+    <!--form is use to store all the backend data like php -->
+    <form action="backend.php">
+        <!-- use label tag to select a entry box by clicking on name and add it in id of input -->
+        <label for="name">Name</label>
+        <div>
+         <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <div>
+            Role: <input type="text" name="myRole">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div>
+        <br>
+   
+        <div>
+            <input type="datetime" name="" >
+        </div>
+        <div>
+            Date:  <input type="date" name="">
+        </div>
+        <div>
+            <input type="number" name="" id="">
+        </div>
+        <div>
+            Are you eligible? : <input type="checkbox" name="MyEligibility" id="">
+        </div>
+        <!-- Use same name in radio show to make one check at a time -->
+        <div>
+            Gender: Male <input type="radio" name="myGender" id=""> Female <input type="radio" name="myGender" id="">
+        </div>
+        <div>
+           Write About yourself : <br> <textarea name="myText" cols="30" rows="10"></textarea>
+        </div>
+        <!-- make a selection box using select  use selected for bydefault-->
+        <div>
+            <label for="car">Car</label>
+            <select name="myCar" id="car">
+            <option value="ind" selected>Indica</option>
+            <option value="swf">Swift</option>
+        </select>
+        </div>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now"> <!-- To reset the value -->
+        </div>
+        <div></div>
+    </form>
+</body>
+</html>
