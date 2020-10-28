@@ -75,6 +75,7 @@ can add ultiple list
 </html>
 ```
 
+## Form
 
 Use **form** to store the backend value like php
 Press **Alt+select+ arrow key** to move the whole file at once
@@ -139,6 +140,30 @@ Press **Alt+select+ arrow key** to move the whole file at once
         </div>
         <div></div>
     </form>
+</body>
+</html>
+```
+
+## Inline & Block Element
+
+**p** is block element which means it take whole row wise space 
+**span** to make a **p** in one line
+**span** is block element
+**strong** and **achor** is inline element
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline & Block Element</title>
+</head>
+<body>
+    <p style="border: 2px solid red;">This is a paragraph</p>
+    <p style="border: 2px solid red;">This is another paragraph</p>
+    <span style="border: 2px solid red;">This is a span</span> <span style="border: 2px solid red;">This is another span</span>
+    <strong style="border: 2px solid red;">This is strong</strong>
+    <a href="" style="border: 2px solid red;">hello</a>
 </body>
 </html>
 ```
