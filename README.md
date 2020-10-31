@@ -167,3 +167,59 @@ Press **Alt+select+ arrow key** to move the whole file at once
 </body>
 </html>
 ```
+### Class & id
+
+Id is unique while class can be multiple
+. for class 
+for id #
+use **emmet* for faster coding
+### span.redBG
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes in HTML</title>
+</head>
+<body>
+    <h3>Ids and classes in htmml</h3>
+  <div id="mainbox" class="redbg">   <!-- id is identifier -->
+this is mainbox
+    </div>
+    <span class="redbg"></span>
+    <span class="redBG"></span>
+</body>
+</html>
+```
+### Html Entities
+
+&nbsp non breaping space
+use to write special character
+check html entites on google
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Entities</title>
+</head>
+<body>
+    <div class="container">
+        <p>this is paragraph</p>
+    </div>
+    <div class="container">
+        <p>this is &nbsp; &nbsp; paragraph</p>
+        <p>paragraph is written like this &lt;p&gt; </p>
+        <p>pound &pound;</p>
+        <p>copywrigth &copy;</p>
+        <p>fraction is writtent like this &frac12;</p>
+        <p>Empty charater &#8203;&#8203;</p>
+    </div>
+</body>
+</html>
+```
+### span#mainSpan
