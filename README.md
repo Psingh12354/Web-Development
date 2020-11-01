@@ -223,3 +223,19 @@ check html entites on google
 </html>
 ```
 ### span#mainSpan
+
+### semantic 
+
+it is use to tell google for what purpose you have use any kind of tags like a header or navigation bar to define which is nav
+check semantic element for further knowledge
+non-semantic-: div,span
+
+## CSS(cascading style sheet)
+
+Types of CSS:
+(1) Inline
+(2) Internal
+(3) External
+
+Inline CSS have higher priority but use of external and internal prefer
+use **!important** to give a part of code higher priority
